@@ -10,6 +10,46 @@ states/
 *.dbg.json
 *.tsbuildinfo
 
-# Optional
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 .env
 .env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Hardhat artifacts and cache
+artifacts/
+cache/
+typechain/
+coverage/
+
+# Compiled contracts
+*.tsbuildinfo
+
+# Optional coverage outputs
+coverage/
+
+# Other
+dist/
+build/
+.history/
